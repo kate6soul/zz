@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Letter Labyrinth — A</title>
+<style>
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111827;
+    color: #f9fafb;
+    font-family: Arial, sans-serif;
+}
+.box {
+    width: min(680px, 90%);
+    text-align: center;
+    background: #1f2937;
+    border-radius: 18px;
+    padding: 35px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.35);
+}
+h1 { font-size: 72px; margin: 0 0 8px; text-transform: uppercase; }
+p { color: #cbd5e1; }
+.links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-top: 28px;
+}
+a {
+    display: block;
+    padding: 18px 10px;
+    background: #374151;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+}
+a:hover { background: #4b5563; transform: translateY(-2px); }
+.goal {
+    color: #86efac;
+    font-size: 28px;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="box">
+    <h1>A</h1>
+    <p>Choose one of the three letters:</p>
+    <div class="links">
+        <a href="y.html">Y</a>
+<a href="l.html">L</a>
+<a href="p.html">P</a>
+    </div>
+</div>
+</body>
+</html>
